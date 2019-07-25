@@ -1,0 +1,12 @@
+.error,
+.loading {
+  width: 100%;
+  font-size: 18px;
+  padding: 5px;
+  text-align: center;
+}
+
+.error {
+  color: #f76262;
+  font-style: italic;
+}

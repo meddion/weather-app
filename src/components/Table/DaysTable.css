@@ -1,0 +1,28 @@
+.DaysTable {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.DaysTable button[type='button']:focus {
+  outline: none;
+}
+
+.DaysTable button[type='button'] {
+  font-size: 18px;
+  color: #fafafa;
+  margin-right: 5px;
+  border: 0;
+  background: #6b778d;
+  height: 48px;
+  width: 120px;
+  padding: 1%;
+  border-radius: 2px;
+}
+
+.DaysTable button[type='button'] img {
+  margin-top: -25px;
+}
+
+.DaysTable button[type='button'].active {
+  background: #263859;
+}

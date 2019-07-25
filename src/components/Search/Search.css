@@ -1,0 +1,29 @@
+.Search {
+  text-align: center;
+  width: 100%;
+}
+.Search input[type='text'],
+.Search button[type='submit'] {
+  height: 40px;
+  padding: 1%;
+}
+
+.Search input[type='text'] {
+  border: 0;
+  width: 300px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+
+.Search input[type='text']:focus,
+.Search button[type='submit']:focus {
+  outline: none;
+}
+
+.Search button[type='submit'] {
+  color: #fafafa;
+  background: #f7b71d;
+  border: 0;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}

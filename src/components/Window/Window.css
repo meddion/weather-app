@@ -1,0 +1,61 @@
+.Window {
+  padding: 10px;
+}
+
+.MainContent {
+  overflow: auto;
+}
+
+.place,
+.time {
+  width: 100%;
+  text-align: left;
+}
+
+.place {
+  font-size: 26px;
+}
+
+.time {
+  font-size: 17px;
+  color: silver;
+  font-style: italic;
+}
+
+.details {
+  width: 100%;
+  text-align: center;
+}
+.details .brief {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.details .brief img {
+  margin-bottom: -15px;
+  margin-left: -5px;
+  width: 48px;
+  height: 48px;
+}
+
+.details .detailed {
+  font-size: 18px;
+  color: silver;
+  font-style: italic;
+}
+
+.otherInfo {
+  font-size: 16px;
+  width: 100%;
+}
+
+.otherInfo ul {
+  font-size: 21px;
+  margin-left: 260px;
+  list-style: none;
+  float: left;
+}
+
+.temp {
+  font-weight: bold;
+}

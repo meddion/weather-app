@@ -1,0 +1,22 @@
+.HourTable {
+  padding: 5px;
+  text-align: center;
+}
+.HourTable button[type='button']:focus {
+  outline: none;
+}
+
+.HourTable button[type='button'] {
+  font-size: 18px;
+  color: #fafafa;
+  margin-right: 5px;
+  border: 0;
+  background: #28c3d4;
+  height: 32px;
+  padding: 1%;
+  border-radius: 2px;
+}
+
+.HourTable button[type='button'].active {
+  background: #248ea9;
+}
